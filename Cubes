@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double x;
+
+	cout << "Enter a number you wish to see a cube table of:\n";
+	cin >> x;
+
+	for (double y = 1; y <= x; y++) {
+		double z = y * y * y;
+		cout << "Number is : " << x << " and the cube of " << x << " is: " << z;
+		cout << endl;
+	}
+}
